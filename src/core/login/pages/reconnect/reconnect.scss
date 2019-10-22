@@ -1,0 +1,37 @@
+ion-app.app-root page-core-login-reconnect {
+    .box {
+        .core-login-form .item {
+            background-color: $core-login-item-background-color;
+            @include padding-horizontal(0);
+
+            @include darkmode() {
+                background-color: $core-dark-login-item-background-color;
+            }
+        }
+
+        .core-login-form .item-inner {
+            background-color: $core-login-item-inner-background-color;
+            @include darkmode() {
+                background-color: $core-dark-login-item-inner-background-color;
+            }
+            @include padding-horizontal(0);
+        }
+    }
+
+    .list .core-username {
+        &.item {
+            @include padding-horizontal(0);
+        }
+        .item-heading {
+            margin-top: 0;
+        }
+
+        .item-inner {
+            @include padding(null, null, null, 8px);
+        }
+    }
+
+    .item-input {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+sudo: required
+dist: xenial
+group: edge
+
+language: node_js
+node_js: 11
+
+before_cache:
+  - rm -rf $HOME/.cache/electron-builder/wine
+
+cache:
+  directories:
+    - $HOME/.npm
+    - $HOME/.cache/electron
+    - $HOME/.cache/electron-builder
+
+before_script:
+  - npm install npm@latest -g
+  - gulp
+
+script:
+  - npm run build
+
+after_success:
+  - chmod +x scripts/aot.sh
+  - scripts/aot.sh

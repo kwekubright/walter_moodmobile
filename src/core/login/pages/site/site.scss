@@ -1,0 +1,13 @@
+ion-app.app-root page-core-login-site {
+    .item-input:last-child {
+        margin-bottom: 20px;
+    }
+
+    .searchbar-ios {
+        background: transparent;
+
+        .searchbar-input {
+            background-color: $searchbar-ios-toolbar-input-background;
+        }
+    }
+}
