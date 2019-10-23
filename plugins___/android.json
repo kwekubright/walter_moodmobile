@@ -1,0 +1,106 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com-darryncampbell-cordova-plugin-intent": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.1.0",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "moodlemobile",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-local-notification": {
+      "ANDROID_SUPPORT_V4_VERSION": "26.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "nl.kingsquare.cordova.background-audio": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "phonegap-plugin-push": {
+      "ANDROID_SUPPORT_V13_VERSION": "27.+",
+      "FCM_VERSION": "17.0.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "phonegap-plugin-multidex": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    }
+  }
+}
